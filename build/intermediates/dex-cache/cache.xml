@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\soumya\Desktop\Count My Steps\SensorsAPI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\soumya\Desktop\Count My Steps\SensorsAPI\app\build\intermediates\pre-dexed\debug\classes-001fa74fffc649a331ec1ce88e01d74333c5ec66.jar" />
+    </item>
+    <item
+        jar="C:\Users\soumya\Desktop\Count My Steps\SensorsAPI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="C:\Users\soumya\Desktop\Count My Steps\SensorsAPI\app\build\intermediates\pre-dexed\debug\classes-2b5fa9314b023c5898f3d621ccfa8a266ddd7e9c.jar" />
+    </item>
+    <item
+        jar="C:\Users\soumya\Desktop\Count My Steps\SensorsAPI\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="C:\Users\soumya\Desktop\Count My Steps\SensorsAPI\app\build\intermediates\pre-dexed\debug\classes-b3ddfe41a2a841ab21498f42303404df1edde9bb.jar" />
+    </item>
+    <item
+        jar="C:\Users\soumya\Desktop\Count My Steps\SensorsAPI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="C:\Users\soumya\Desktop\Count My Steps\SensorsAPI\app\build\intermediates\pre-dexed\debug\classes-ce85e7b69c07b31ebda68b407c6b09424bf42c93.jar" />
+    </item>
+    <item
+        jar="C:\Users\soumya\Desktop\Count My Steps\SensorsAPI\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\Users\soumya\Desktop\Count My Steps\SensorsAPI\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-82bf3524ef883912d25ebb8b0a5a9489f598a7b5.jar" />
+    </item>
+    <item
+        jar="C:\Users\soumya\Desktop\Count My Steps\SensorsAPI\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="C:\Users\soumya\Desktop\Count My Steps\SensorsAPI\app\build\intermediates\pre-dexed\debug\classes-948c966c304e7b91b6a306825e1a87441fdc4983.jar" />
+    </item>
+    <item
+        jar="C:\Users\soumya\Desktop\Count My Steps\SensorsAPI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="C:\Users\soumya\Desktop\Count My Steps\SensorsAPI\app\build\intermediates\pre-dexed\debug\classes-6be89085a63740902c7d39ba68a041e43edf4bf1.jar" />
+    </item>
+    <item
+        jar="C:\Users\soumya\Desktop\Count My Steps\SensorsAPI\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="C:\Users\soumya\Desktop\Count My Steps\SensorsAPI\app\build\intermediates\pre-dexed\debug\classes-c957df575cc32a37da2e77ca109cb2de4addbd54.jar" />
+    </item>
+    <item
+        jar="C:\Users\soumya\Desktop\Count My Steps\SensorsAPI\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Users\soumya\Desktop\Count My Steps\SensorsAPI\app\build\intermediates\pre-dexed\debug\classes-85af5362b3a692755c61a44401b13c5b15a90c9e.jar" />
+    </item>
+    <item
+        jar="C:\Users\soumya\Desktop\Count My Steps\SensorsAPI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\soumya\Desktop\Count My Steps\SensorsAPI\app\build\intermediates\pre-dexed\debug\classes-09d4b61998887674a1a093552a40edc05b49b3fc.jar" />
+    </item>
+    <item
+        jar="C:\Users\soumya\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\Users\soumya\Desktop\Count My Steps\SensorsAPI\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-313f3c73c763b737278dea27ba353d301351afdf.jar" />
+    </item>
+
+</items>

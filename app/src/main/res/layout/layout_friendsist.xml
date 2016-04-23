@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Friend"
+        android:id="@+id/Fpic"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Name"
+        android:id="@+id/fname"
+        android:layout_alignTop="@+id/Fpic"
+        android:layout_toRightOf="@+id/Fpic"
+        android:layout_toEndOf="@+id/Fpic"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Steps"
+        android:id="@+id/fsteps"
+        android:layout_alignTop="@+id/fname"
+        android:layout_toRightOf="@+id/fname"
+        android:layout_toEndOf="@+id/fname"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Calories"
+        android:id="@+id/fcalories"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/fsteps"
+        android:layout_toEndOf="@+id/fsteps" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Rank"
+        android:id="@+id/rank"
+        android:layout_alignTop="@+id/fcalories"
+        android:layout_toRightOf="@+id/fcalories"
+        android:layout_toEndOf="@+id/fcalories"
+        android:layout_marginLeft="20dp" />
+
+
+    <TableLayout
+        android:id="@+id/fr1"
+        android:layout_height="450dp"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/fcalories"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:id="@+id/listView_friends"
+                android:layout_column="0" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
