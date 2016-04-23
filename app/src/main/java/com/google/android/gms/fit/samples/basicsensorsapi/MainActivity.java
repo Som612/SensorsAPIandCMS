@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity implements OnDataPointListen
 
         steps = (TextView) findViewById(R.id.tID);
 
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.content_main);
         // This method sets up our custom logger, which will print all log messages to the device
         // screen, as well as to adb logcat.
         initializeLogging();
