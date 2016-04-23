@@ -23,7 +23,9 @@ limitations under the License.
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
-    <TextView
+
+    <include layout="@layout/content_main" />
+    <!--TextView
         android:id="@+id/title_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -46,6 +48,6 @@ limitations under the License.
         android:text="Testing"
         android:id="@+id/tID"
         android:layout_below="@+id/scrollView"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true" /-->
 </RelativeLayout>
 

@@ -54,33 +54,4 @@
 
     </TableLayout>
 
-    <!-- Stuff from the Sensors API-->
-    <TextView
-        android:id="@+id/title_text_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/intro_text" />
-    <ScrollView
-        android:layout_width="fill_parent"
-        android:layout_height="200dp"
-        android:layout_below="@id/title_text_view"
-        android:id="@+id/scrollView">
-        <com.google.android.gms.fit.samples.common.logger.LogView
-            android:id="@+id/sample_logview_new"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:scrollbars="vertical" />
-    </ScrollView>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Testing"
-        android:id="@+id/tID"
-        android:layout_below="@+id/scrollView"
-        android:layout_centerHorizontal="true" />
-
-
-
-
 </RelativeLayout>

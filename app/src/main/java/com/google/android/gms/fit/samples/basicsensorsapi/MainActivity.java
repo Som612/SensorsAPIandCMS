@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity implements OnDataPointListen
         super.onCreate(savedInstanceState);
         // Put application specific code here.
 
-        steps = (TextView) findViewById(R.id.tID);
+        //steps = (TextView) findViewById(R.id.tID);
 
         setContentView(R.layout.activity_main);
         // This method sets up our custom logger, which will print all log messages to the device
@@ -353,14 +353,14 @@ public class MainActivity extends AppCompatActivity implements OnDataPointListen
         MessageOnlyLogFilter msgFilter = new MessageOnlyLogFilter();
         logWrapper.setNext(msgFilter);
         // On screen logging via a customized TextView.
-        LogView logView = (LogView) findViewById(R.id.sample_logview_new);
+       // LogView logView = (LogView) findViewById(R.id.sample_logview_new);
 
         // Fixing this lint errors adds logic without benefit.
         //noinspection AndroidLintDeprecation
         //logView.setTextAppearance(this, R.style.Log);
 
         //logView.setBackgroundColor(Color.WHITE);
-        msgFilter.setNext(logView);
+        //msgFilter.setNext(logView);
         Log.i(TAG, "Ready");
     }
 
