@@ -42,6 +42,7 @@ import com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks;
 import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.common.api.Scope;
 import com.google.android.gms.common.api.Status;
+import com.google.android.gms.fit.samples.DBLayout.ProxyDB;
 import com.google.android.gms.fit.samples.common.logger.Log;
 import com.google.android.gms.fit.samples.common.logger.LogView;
 import com.google.android.gms.fit.samples.common.logger.LogWrapper;
@@ -57,6 +58,8 @@ import com.google.android.gms.fitness.request.OnDataPointListener;
 import com.google.android.gms.fitness.request.SensorRequest;
 import com.google.android.gms.fitness.result.DataSourcesResult;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.concurrent.TimeUnit;
 
 
@@ -73,7 +76,10 @@ public class MainActivity extends AppCompatActivity implements OnDataPointListen
 
     private static final int REQUEST_PERMISSIONS_REQUEST_CODE = 34;
 
-    TextView steps;
+    String username;
+    ProxyDB profiledb;
+    Calendar calendar;
+    SimpleDateFormat mdformat;
 
     // [START mListener_variable_reference]
     // Need to hold a reference to this listener, as it's passed into the "unregister"
@@ -83,11 +89,14 @@ public class MainActivity extends AppCompatActivity implements OnDataPointListen
 
     Button me, statistics, friends;
 
+
     // [START auth_oncreate_setup]
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         // Put application specific code here.
+
+
 
         //steps = (TextView) findViewById(R.id.tID);
 
@@ -103,10 +112,19 @@ public class MainActivity extends AppCompatActivity implements OnDataPointListen
 
         }
 
+        Intent in = getIntent();
+        username= in.getExtras().getString("username");
 
         me = (Button) findViewById(R.id.profile);
         statistics = (Button) findViewById(R.id.stats);
         friends = (Button) findViewById(R.id.friends);
+        profiledb = new ProxyDB(this);
+        calendar = Calendar.getInstance();
+        mdformat = new SimpleDateFormat("yyyy / MM / dd ");
+
+
+        AddtoDB();
+
 
         me.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -116,6 +134,7 @@ public class MainActivity extends AppCompatActivity implements OnDataPointListen
                 ProfileFragment hf = new ProfileFragment();
                 ft.add(R.id.fr1, hf);
                 ft.commit();
+
             }
         });
 
@@ -477,5 +496,9 @@ public class MainActivity extends AppCompatActivity implements OnDataPointListen
     @Override
     public void onDataPoint(DataPoint dataPoint) {
 
+    }
+
+    public  void AddtoDB() {
+        boolean isInserted = profiledb.insertDataT2(mdformat.format(calendar.getTime()).toString(),10,10,10);
     }
 }
